@@ -75,16 +75,16 @@ export default function SelectSkip() {
         </div>
       )}
 
-      <div className="flex justify-center gap-4 mt-8">
+      <div className="flex justify-center gap-4 mt-8 pb-4">
         <button
           onClick={() => setCurrentStep((s) => Math.max(s - 1, 0))}
-          className="px-4 py-2 text-gray-800 transition bg-gray-200 rounded hover:bg-gray-300"
+          className="px-4 py-2 text-gray-800 transition bg-gray-200 rounded hover:bg-gray-300 cursor-pointer"
         >
           Previous
         </button>
         <button
           onClick={() => setCurrentStep((s) => Math.min(s + 1, 5))}
-          className="px-4 py-2 text-white transition bg-[#2563EB] rounded hover:bg-[#1D4ED8]"
+          className="px-4 py-2 text-white transition bg-[#2563EB] rounded hover:bg-[#1D4ED8] cursor-pointer"
         >
           Next
         </button>

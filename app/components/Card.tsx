@@ -85,7 +85,7 @@ const Card: React.FC<CardProps> = ({ skip, onSelect }) => {
             disabled={fullyDisabled}
             className={`
               mt-4 w-full rounded-md py-2 px-4 font-semibold text-base md:text-lg
-              shadow-sm shadow-black/30 backdrop-blur-sm transition
+              shadow-sm shadow-black/30 backdrop-blur-sm transition cursor-pointer
               ${
                 fullyDisabled
                   ? "bg-gray-300 text-gray-600 cursor-not-allowed"
